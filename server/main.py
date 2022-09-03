@@ -23,4 +23,4 @@ app.register_blueprint(blog.blg)
 app.register_blueprint(user.users)
 app.register_blueprint(about.about_bp)
 # 9113
-app.run(port=1026, debug=True)
+app.run(port=1026, debug=False)
